@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * Created by Sonic on 18.07.2017.
+ * Created by Salty Man on 18.07.2077.
  */
 public class ParticleSystem {
 
@@ -46,10 +46,10 @@ public class ParticleSystem {
             em.emit(dt, particles);
 
 
-       //for(int i = 0; i < maxCount; i++)
-        //{
-        //    System.out.println("vel: " + particles.vel[i][0]);
-       // }
+      /* for(int i = 0; i < maxCount; i++)
+        {
+            System.out.println("vel: " + particles.vel[i][0]);
+       }*/
 
         for(Updater upd : updaters)
             upd.update(dt, particles);

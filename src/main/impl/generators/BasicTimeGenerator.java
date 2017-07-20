@@ -10,8 +10,8 @@ import java.util.Random;
  */
 public class BasicTimeGenerator implements Generator {
 
-    public static double minTime = 1;
-    public static double maxTime = 2;
+    public static double minTime = 0.2;
+    public static double maxTime = 1;
 
     private static Random rand = new Random();
 

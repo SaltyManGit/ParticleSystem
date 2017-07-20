@@ -31,7 +31,7 @@ public class Demo {
         Generator posGen = new CirclePosGenerator();
        // Generator posGen = new SectorPositionGenerator();
         Generator velGen = new VelocityGenerator();
-        Generator accGen = new AccelerationGenerator();
+        //Generator accGen = new AccelerationGenerator();
         Generator colGen = new BasicColorGenerator();
 
         Emitter emitter = new ParticleEmitter();
@@ -43,7 +43,7 @@ public class Demo {
 
         Updater timeUpd = new BasicTimeUpdater();
         Updater posUpd = new EulerUpdater();
-        Updater floorUpd = new FloorUpdater();
+        //Updater floorUpd = new FloorUpdater();
         Updater colUpd = new BasicColorUpdater();
 
         system.addEmitter(emitter);

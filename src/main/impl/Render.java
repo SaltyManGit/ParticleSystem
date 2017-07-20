@@ -18,8 +18,6 @@ public class Render extends JFrame {
 
 
 
-
-
     public Render(double[][] pos, Color[] col)
     {
         this.pos = pos;
@@ -45,12 +43,11 @@ public class Render extends JFrame {
             {
                 g.setColor(col[i]);
                 //g.drawLine((int)pos[i][0], (int)pos[i][1],(int)pos[i][0], (int)pos[i][1]);
-                g.fillOval((int)pos[i][0], (int)pos[i][1],16, 16);
+                g.fillOval((int)pos[i][0], (int)pos[i][1],13, 13);
 
             }
 
-
-
+           System.gc();
         }
     }
 

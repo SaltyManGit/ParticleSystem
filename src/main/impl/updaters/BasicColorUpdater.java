@@ -26,6 +26,6 @@ public class BasicColorUpdater implements Updater{
     {
        return new Color((int)( x[0] * (1.0 - a) + y[0] * a),
                (int)(x[1] * (1.0 - a) + y[1] * a),
-               (int)( x[2] * (1.0 - a) + y[2] * a), 150);
+               (int)( x[2] * (1.0 - a) + y[2] * a), 110);
     }
 }

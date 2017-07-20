@@ -15,7 +15,7 @@ import static java.lang.Math.abs;
 public class BasicColorGenerator implements Generator {
 
     public static int[] minStartCol = new int[]{255,0,0};
-    public static int[] maxStartCol = new int[]{255,130,70};
+    public static int[] maxStartCol = new int[]{255,100,65};
     public static int[] minEndCol = new int[]{250,255,0};
     public static int[] maxEndCol = new int[]{255,255,153};
 

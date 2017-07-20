@@ -10,8 +10,8 @@ import java.util.Random;
  */
 public class VelocityGenerator implements Generator {
 
-    public static double[] minVel = new double[]{-50.0,100.0};
-    public static double[] maxVel = new double[]{50.0,200.0};
+    public static double[] minVel = new double[]{-10.0,30.0};
+    public static double[] maxVel = new double[]{10.0,40.0};
 
     private static Random rand = new Random();
 

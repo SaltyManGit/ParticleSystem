@@ -12,7 +12,7 @@ import java.util.List;
  */
 public class ParticleEmitter implements Emitter {
 
-    public  static double emitRate = 5000;
+    public  static double emitRate = 6000;
     public List<Generator> generators;
 
 
